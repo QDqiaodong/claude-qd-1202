@@ -1,0 +1,29 @@
+:root {
+  /* 赭红主色 —— 古玩寄卖行（与已建各仓主色均不重复） */
+  --primary: #8B3A3A;
+  --primary-deep: #6F2E2E;
+  --primary-soft: #AE7575;
+  --primary-wash: #F3EBEB;
+  --ink: #2f2525;
+  --muted: #8a6f6f;
+  --line: #ecdcdc;
+  --bg: #f7f1f1;
+
+  --el-color-primary: #8B3A3A;
+  --el-color-primary-light-3: #AE7575;
+  --el-color-primary-light-5: #C59D9D;
+  --el-color-primary-light-7: #DCC4C4;
+  --el-color-primary-light-8: #E8D8D8;
+  --el-color-primary-light-9: #F3EBEB;
+  --el-color-primary-dark-2: #6F2E2E;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: "PingFang SC", "Microsoft YaHei", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-size: 14px;
+}
